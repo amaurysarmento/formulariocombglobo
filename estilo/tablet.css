@@ -1,0 +1,36 @@
+@media (min-width:1024px) and (max-width:1440.98px) {
+   
+    form {
+        background-image: url('../img/artstation-explore.jpeg');
+        background-size: cover;
+        
+        width: 43vw;
+        height: 62vh;
+        display: block;
+        margin: auto;
+        padding: 0vh 2vw;
+        border: transparent;
+        border-radius: 12px 3px;
+    }
+
+    .nome > input,
+    .sobrenome > input,
+    .senha > input {
+        background-color: rgba(202, 122, 255, 0.384);
+        width: 36vw;
+        display: block;
+        margin: auto;
+        padding: 2px;
+        border-radius: 3px;
+}
+
+    footer {
+        background-color: rgb(46, 5, 46);
+        display: block;
+        margin-top: auto ;
+        padding: 1.5vh;
+        text-align: center;
+        color: aliceblue; 
+    }
+    
+}
